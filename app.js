@@ -103,6 +103,12 @@ var UIController = (function() {
 
         },
 
+        clearFields: function() {
+            var fields;
+            
+            fields = document.querySelectorAll(DOMstrings.inputDescription + ', ' + DOMstrings.inputValue);
+        },
+
         getDOMstrings: function() {
             return DOMstrings;
         }
