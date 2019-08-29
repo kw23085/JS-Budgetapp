@@ -13,6 +13,10 @@ var budgetController = (function() {
         this.value = value;
     };
 
+    var calculateTotal = function(type) {
+        var sum = 0;
+        data.a
+    };
 
     var data = {
         allItems: {
@@ -49,6 +53,17 @@ var budgetController = (function() {
 
             // Return the new element
             return newItem;
+        },
+
+        calculateBudget: function() {
+
+            // calculate total income and expenses
+
+
+            // calculate the budget: income - expenses
+
+            // calculate the percentage of income that we spent
+            
         },
 
         testing: function() {
@@ -171,7 +186,7 @@ var controller = (function(budgetCtrl, UICtrl) {
 
                 // 5. Calculate and update budget
                 updateBudget();
-                
+
             }
 
     };
